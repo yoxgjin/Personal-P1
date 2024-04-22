@@ -1,0 +1,203 @@
+body {
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    color: #F9F7F7;
+    font-family: sans-serif;
+}
+
+section {
+    width: 1000px;
+    margin: 20px;
+    padding: 7.5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.head h1{
+    font-size: 35px;
+}
+
+.font {
+    font-family: 'Press Start 2P', sans-serif;
+    color: #F9F7F7;
+}
+
+.game {
+    display: flex;
+    gap: 20px;
+}
+
+.add-on {
+    background-color: #31363F;
+    border-radius: 12.5px;
+    padding: 10px;
+}
+
+.game-rules {
+    width: 600px;
+    text-align: left;
+}
+
+div p {
+    text-align: center;
+    font-size: 25px;
+}
+
+b {
+    color: #F4DFC8;
+}
+
+li {
+    font-size: 15px;
+    padding: 7.5px;
+}
+
+.game-box {
+    height: 350px;
+    width: 350px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 7.5px;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border: 7.5px solid black;
+    border-radius: 12.5px;
+    padding: 0px;
+    margin: 0px;
+} 
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+a:link {
+    color: #F9F7F7;
+}
+
+a:visited {
+    color: #F9F7F7;
+}
+
+.pressed {
+    box-shadow: 0 0 25px white;
+    background-color: #EEEEEE;
+}
+
+.game-over {
+    background-color: #A0153E;
+    opacity: 0.75;
+}
+
+@media (min-width: 725px) and (max-width: 1039px) {
+    section {
+        width: 700px;
+    }
+
+    .head h1{
+        font-size: 35px;
+    }
+
+    .game {
+        justify-content: center;
+    }
+
+    .game-rules {
+        width: 325px;
+    }
+
+    div p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 10px;
+        padding: 7.5px;
+    }
+
+    .game-box {
+        height: 312.5px;
+        width: 312.5px;
+        gap: 7.5px;
+    }
+
+    .btn {
+        height: 137.5px;
+        width: 137.5px;
+        border: 7.5px solid black;
+    } 
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 724px) {
+    section {
+        width: 325px;
+    }
+
+    .head h1{
+        font-size: 30px;
+    }
+
+    .game {
+        justify-content: center;
+        display: grid;
+    }
+
+    .game-rules {
+        width: 300px;
+        order: 1;
+    }
+
+    div p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 10px;
+        padding: 7.5px;
+    }
+
+    .game-box {
+        height: 300px;
+        width: 300px;
+        gap: 7.5px;
+    }
+
+    .btn {
+        height: 125px;
+        width: 125px;
+        border: 7.5px solid black;
+    } 
+
+    footer p {
+        font-size: 7.5px;
+    }
+}
